@@ -42,9 +42,12 @@ IoT, sensors, thermocouple, pH, electrical conductivity, 3D printing, CAD, web m
 
 The public code reconstructs the monitoring logic with example data. Original team hardware files are included only if ownership and sharing permission are clear.
 
-## Author
+## Author and Project Setting
 
-Hritika Adhikary.
+**Hritika Adhikary**  
+Undergraduate Biomedical Engineering Team Project  
+Adamas University, Kolkata, India  
+2022
 
 ## Rights
 
