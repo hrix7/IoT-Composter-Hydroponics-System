@@ -1,27 +1,51 @@
 # IoT Composter and Hydroponics System
 
-An open portfolio reconstruction of an undergraduate team project combining a 3D-printed mini composter, hydroponics, environmental sensing, and web-connected monitoring.
+I contributed to this undergraduate engineering project at Adamas University as part of a 10-member team. We combined a compact 3D-printed waste-composting unit with a hydroponic growing system and used sensors to monitor the conditions needed for operation.
 
-## System concept
+## Work completed
 
-- Temperature monitoring
-- pH and electrical-conductivity inputs
-- Sensor threshold alerts
-- IoT/web dashboard integration
-- CAD and 3D-printed enclosure concepts
+- Helped develop the system concept linking organic-waste processing with hydroponic cultivation.
+- Integrated temperature, pH, and electrical-conductivity measurements.
+- Used a thermocouple for temperature monitoring.
+- Contributed to the 3D-printed enclosure and component layout.
+- Defined a web/IoT monitoring workflow for viewing sensor status.
+- Organized sensor readings into ranges that could trigger status flags or operator actions.
+- Worked across mechanical design, sensing, electronics, and team coordination.
 
-## Included starter code
+## System features
 
-The Python monitor accepts JSON sensor readings and produces status flags. It is hardware-agnostic so real sensors can be integrated later.
+- 3D-printed compact structure.
+- Temperature, pH, and conductivity monitoring.
+- Separate checks for composting and hydroponic conditions.
+- JSON-compatible sensor records.
+- Rule-based status and recommended-action outputs.
+
+## Repository code
+
+- `src/sensor_monitor.py` evaluates a single reading against configured operating ranges.
+- `src/control_rules.py` evaluates a time-stamped sensor record and returns clear operator actions.
+- `examples/reading.json` demonstrates the input structure.
+- `docs/ARCHITECTURE.md` describes the sensing and data-flow architecture.
+
+## Run the tools
 
 ```bash
-python src/sensor_monitor.py --temperature 27.5 --ph 6.2 --ec 1.4
+python src/sensor_monitor.py --temperature 25 --ph 6.1 --ec 1.4
+python src/control_rules.py examples/reading.json
 ```
 
-## Status
+## Tools
 
-This is a reconstructed educational portfolio repository. Original team assets will be added only if ownership and permissions are clear.
+IoT, sensors, thermocouple, pH, electrical conductivity, 3D printing, CAD, web monitoring, Python.
 
-## License
+## Scope
 
-MIT for original code and documentation.
+The public code reconstructs the monitoring logic with example data. Original team hardware files are included only if ownership and sharing permission are clear.
+
+## Author
+
+Hritika Adhikary.
+
+## Rights
+
+Copyright (c) 2026 Hritika Adhikary. All rights reserved. See [LICENSE](LICENSE).
