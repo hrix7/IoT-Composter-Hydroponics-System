@@ -44,10 +44,10 @@ The public code reconstructs the monitoring logic with example data. Original te
 
 ## Author and Project Setting
 
-**Hritika Adhikary**  
-Undergraduate Biomedical Engineering Team Project  
-Adamas University, Kolkata, India  
-2022
+**Author:** Hritika Adhikary  
+**Project:** Undergraduate Biomedical Engineering Team Project  
+**Institution:** Adamas University, Kolkata, India  
+**Period:** 2022
 
 ## Rights
 
